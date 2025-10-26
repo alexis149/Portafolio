@@ -6,7 +6,7 @@ document.getElementById('form')
 
    btn.value = 'Enviando....';
 
-   const serviceID = 'default_service';
+   const serviceID = 'service_35giws2';
    const templateID = 'template_tjvbdc2';
 
    emailjs.sendForm(serviceID, templateID, this)
@@ -17,4 +17,5 @@ document.getElementById('form')
       btn.value = 'Enviado!!';
       alert(JSON.stringify(err));
     });
+
 });
