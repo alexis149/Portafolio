@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Alexis Castillo</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#2c3757] text-[#fcfcfc]" >
+    <header>
+        <div class="">
+            <h1 class="text-3xl font-semibold mt-5 ml-5 mr-5">Alexis Castillo</h1>
+        </div>
+    </header>
+    <main>
+        <section class=" text-center justify-items-center">
+            <div class="pt-20 space-y-4">
+                <div>
+                    <h1 class="text-3xl font-semibold">Programador</h1>
+                    <h1 class="text-2xl font-semibold">Soporte Tecnico</h1>
+                </div>
+                <div>
+                    <p class="text-lg  max-w-200"> 
+                        Hola! Soy Alexis, tengo 20 años y vivo en Maracay. 
+                        Experiencia como programador frontend y soporte técnico. Me gusta trabajar en equipo y 
+                        proponer soluciones creativas.
+                    </p>
+                </div>
+            </div>
+        </section>
+      <!--conocimientos--> 
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-3xl font-bold text-center mb-8">Conocimientos</h2>
+  <div id="Contenedor" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Card 1 -->
+    <div id="bloques" class="bg-[#37446b] p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-4">Desarrollo Web</h3>
+      <p class="text-gray-300">HTML, CSS, JavaScript, PHP, TailwindCSS, GitHub, MySQL, PostgreSQL.</p>
+    </div>
+    <!-- Card 2 -->
+    <div id="bloques" class="bg-[#37446b] p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-4">Soporte Técnico</h3>
+      <p class="text-gray-300">Experiencia en servidores y sistemas (Kellogg).</p>
+    </div>
+    <!-- Card 3 -->
+    <div id="bloques" class="bg-[#37446b] p-6 rounded-lg shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-4">Desarrollo Android</h3>
+      <p class="text-gray-300">Kotlin, Android Studio, proyectos básicos.</p>
+    </div>
+  </div>
+</section>
+<!--Habilidades-->
+<section class="max-w-6xl mx-auto px-4 py-12">
+    <h2  class="text-3xl font-bold text-center mb-8">Habilidades</h2>
+    <h3  class="text-2xl font-semibold text-center mb-8">Desarrollo Web</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
+        <div><img src="/img/html.png" alt=""></div>
+        <div><img src="/img/css.png" alt=""></div>
+        <div><img src="/img/mysql.png" alt=""></div>
+        <div><img src="/img/postgre.png" alt=""></div>
+        <div><img src="/img/php.png" alt=""></div>
+        <div><img src="/img/Tailwind_CSS_Logo.png" alt="" width="90"></div>
+        <div><img src="/img/Github-Logo-Transparent.png" alt=""width="90"></div>
+    </div>
+    <h3  class="text-2xl font-semibold text-center mb-8">Desarrollo Android</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+        <div><img src="/img/Kotlin.png" alt="" width="110"></div>
+        <div><img src="/img/androidstudio_93831.png" alt="" width="70"></div>
+    </div>
+</section>
+<!--proyectos-->
+<section id="conocimientos" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Proyectos</h2>
+    <!--container cards-->
+    <div id="container-card" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Cards -->
+        <div class="bg-[#37446b] p-6 rounded-lg text-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-bold mb-2">Pagina Funebre</h3>
+            <p class="text-gray-300">Colaboré en el diseño estético de "Desembarque del Rey".</p>
+
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer id="contacto" class="bg-gray-800 text-center py-12 mt-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6">Contáctame</h3>
+    <p class="text-gray-400 mb-6">Mándame un mensaje</p>
+    <form action=""></form>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <input type="text" name="nombre" placeholder="Tu nombre" class="p-3 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <input type="email" name="email" placeholder="Tu correo" class="p-3 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" rows="4" class="p-3 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:col-span-2"></textarea>
+      </div>
+      <button type="submit" class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded transition">Enviar</button>
+    </form>
+  </div>
+</footer>
+
+
+
+
+
+    </main>
+    
+</body>
